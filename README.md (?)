@@ -1,4 +1,6 @@
 # hw9
+//not sure about the answer
+
 Why can you only use certain pins for analogWrite()?
   The frequency of the PWM signal on most pins is approximately 980 Hz. On the Uno boards, certain pins have different frequencies. In or der the analogWrite to work, it need to be connected to pins with similar frequences.
   
